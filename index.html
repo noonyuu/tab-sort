@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>タブ整理</title>
+    <style>
+      body {
+        width: 230px;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="tabSort"></button>
+    <select id="windowSelect"></select>
+    <select id="sortRule">
+      <option value="title">タイトル</option>
+      <option value="url">URL</option>
+    </select>
+    <script src="index.js"></script>
+  </body>
 </html>
