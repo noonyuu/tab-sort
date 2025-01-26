@@ -1,0 +1,10 @@
+{
+  "name": "タブ整理",
+  "description": "タブを整理する",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs"]
+}
