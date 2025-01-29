@@ -1,0 +1,17 @@
+body {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #82aefa;
+  background-color: #82aefa;
+  border-radius: 4px;
+  color: white;
+}
+select {
+  margin-bottom: 10px;
+}
